@@ -1,0 +1,26 @@
+/*
+============================================
+; Title: Assignment 1.2
+; Author: Donald Cousar
+; Date: 21 July 2019
+; Description: One Way Binding
+;===========================================
+*/
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}

@@ -1,0 +1,21 @@
+/*
+============================================
+; Title: Assignment 1.2
+; Author: Donald Cousar
+; Date: 21 July 2019
+; Description: One Way Binding
+;===========================================
+*/
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/e2e",
+    "module": "commonjs",
+    "target": "es5",
+    "types": [
+      "jasmine",
+      "jasminewd2",
+      "node"
+    ]
+  }
+}
