@@ -55,6 +55,14 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
+/*
+============================================
+; Title: Assignment 2.2
+; Author: Donald Cousar
+; Date: 21 July 2019
+; Description: One Way Binding
+;===========================================
+*/
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 

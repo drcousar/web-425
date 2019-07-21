@@ -3,7 +3,7 @@
 // https://github.com/angular/protractor/blob/master/lib/config.ts
 /*
 ============================================
-; Title: Assignment 1.2
+; Title: Assignment 2.2
 ; Author: Donald Cousar
 ; Date: 21 July 2019
 ; Description: One Way Binding

@@ -1,7 +1,7 @@
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 /*
 ============================================
-; Title: Assignment 1.2
+; Title: Assignment 2.2
 ; Author: Donald Cousar
 ; Date: 21 July 2019
 ; Description: One Way Binding

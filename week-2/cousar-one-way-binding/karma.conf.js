@@ -2,7 +2,7 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 /*
 ============================================
-; Title: Assignment 1.2
+; Title: Assignment 2.2
 ; Author: Donald Cousar
 ; Date: 21 July 2019
 ; Description: One Way Binding

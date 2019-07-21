@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 /*
 ============================================
-; Title: Assignment 1.2
+; Title: Assignment 2.2
 ; Author: Donald Cousar
 ; Date: 21 July 2019
 ; Description: One Way Binding
