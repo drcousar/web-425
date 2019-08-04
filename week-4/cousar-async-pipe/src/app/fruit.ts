@@ -1,6 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<!--
-  /*
+/*
 ============================================
 ; Title: Assignment 4.4
 ; Author: Donald Cousar
@@ -8,6 +6,9 @@
 ; Description: Async Pipe
 ;===========================================
 */
--->
-
-<router-outlet></router-outlet>
+export interface Fruit {
+    id: number;
+    name: string;
+    pricePerPound: string;
+    quantity: number;
+}

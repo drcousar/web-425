@@ -1,6 +1,4 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<!--
-  /*
+/*
 ============================================
 ; Title: Assignment 4.4
 ; Author: Donald Cousar
@@ -8,6 +6,10 @@
 ; Description: Async Pipe
 ;===========================================
 */
--->
+import { Fruit } from './fruit';
 
-<router-outlet></router-outlet>
+describe('Fruit', () => {
+  it('should create an instance', () => {
+    expect(new Fruit()).toBeTruthy();
+  });
+});

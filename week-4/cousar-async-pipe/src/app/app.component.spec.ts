@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 4.4
+; Author: Donald Cousar
+; Date: 4 August 2019
+; Description: Async Pipe
+;===========================================
+*/
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';

@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 4.4
+; Author: Donald Cousar
+; Date: 4 August 2019
+; Description: Async Pipe
+;===========================================
+*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

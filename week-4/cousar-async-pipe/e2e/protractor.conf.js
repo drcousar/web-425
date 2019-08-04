@@ -1,7 +1,14 @@
 // @ts-check
 // Protractor configuration file, see link for more information
 // https://github.com/angular/protractor/blob/master/lib/config.ts
-
+/*
+============================================
+; Title: Assignment 4.4
+; Author: Donald Cousar
+; Date: 4 August 2019
+; Description: Async Pipe
+;===========================================
+*/
 const { SpecReporter } = require('jasmine-spec-reporter');
 
 /**

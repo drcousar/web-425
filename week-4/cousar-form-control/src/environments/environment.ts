@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 4.3
+; Author: Donald Cousar
+; Date: 4 August 2019
+; Description: Observables
+;===========================================
+*/
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.

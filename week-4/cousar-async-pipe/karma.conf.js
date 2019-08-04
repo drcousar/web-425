@@ -1,6 +1,13 @@
 // Karma configuration file, see link for more information
 // https://karma-runner.github.io/1.0/config/configuration-file.html
-
+/*
+============================================
+; Title: Assignment 4.4
+; Author: Donald Cousar
+; Date: 4 August 2019
+; Description: Async Pipe
+;===========================================
+*/
 module.exports = function (config) {
   config.set({
     basePath: '',
