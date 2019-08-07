@@ -1,11 +1,3 @@
-/*
-============================================
-; Title: Assignment 5.2
-; Author: Donald Cousar
-; Date: 7 August 2019
-; Description: Angular Material
-;===========================================
-*/
 // This file is required by karma.conf.js and loads recursively all the .spec and framework files
 
 import 'zone.js/dist/zone-testing';
