@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 5.3
+; Author: Donald Cousar
+; Date: 7 August 2019
+; Description: Angular Material
+;===========================================
+*/
 import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';

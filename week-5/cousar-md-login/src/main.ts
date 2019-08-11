@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 5.3
+; Author: Donald Cousar
+; Date: 7 August 2019
+; Description: Angular Material
+;===========================================
+*/
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

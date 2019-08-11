@@ -1,3 +1,11 @@
+/*
+============================================
+; Title: Assignment 5.3
+; Author: Donald Cousar
+; Date: 7 August 2019
+; Description: Angular Material
+;===========================================
+*/
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
