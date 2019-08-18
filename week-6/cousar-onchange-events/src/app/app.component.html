@@ -1,0 +1,59 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!--
+  /*
+============================================
+; Title: Assignment 6.4
+; Author: Donald Cousar
+; Date: 18 August 2019
+; Description: Component Communications - OnChange Events
+;===========================================
+*/
+-->
+<!-- ##### BEGIN TOP NAVIGATION ########-->
+<mat-toolbar class="menu" role="header" color="primary">
+    <mat-toolbar-row>
+      <button mat-button class="toolbar__icon-button mat-button">
+        
+        <span style="margin-left: 5px !important;">WEB 425</span>
+      </button>
+      <button mat-button class="mat-button">
+        About
+      </button>
+      <button mat-button class="mat-button">
+        Contact Us
+      </button>
+  
+      <div fxFlex></div>
+  
+      
+      
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- Side Nav Container with Class -->
+<mat-sidenav-container>
+  <mat-sidenav class="left" mode="side" opened>
+    
+  </mat-sidenav>
+  <mat-sidenav-content class="right">
+      <div class="parent">
+        <h2>Parent</h2>
+        <div>
+          Greeting: <input type="text" [(ngModel)]="myGreeting">
+        </div>
+      
+        <div>
+          Greeting: <input type="text" [(ngModel)]="myUser.name">
+        </div>
+      
+        <app-child [greeting]="myGreeting" [user]="myUser"></app-child>
+      </div>
+        
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+<router-outlet></router-outlet>
