@@ -1,0 +1,58 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!--
+  /*
+============================================
+; Title: Assignment 7.2
+; Author: Donald Cousar
+; Date: 25 August 2019
+; Description: Template Driven Forms
+;===========================================
+*/
+-->
+<mat-toolbar class="menu" role="header" color="primary">
+    <mat-toolbar-row>
+      <button mat-button class="toolbar__icon-button mat-button">
+        
+        <span style="margin-left: 5px !important;">WEB 425</span>
+      </button>
+      <button mat-button class="mat-button">
+        About
+      </button>
+      <button mat-button class="mat-button">
+        Contact Us
+      </button>
+  
+      <div fxFlex></div>
+  
+      
+      
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- Side Nav Container with Class -->
+<mat-sidenav-container>
+  <mat-sidenav class="left" mode="side" opened>
+    
+  </mat-sidenav>
+  <mat-sidenav-content class="right">
+        <!-- BEGIN Main Section-->
+ 
+        <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+            <div class="formpad">Username: <input type="text" name="username" ngModel></div>
+            <div class="formpad">SSN: <input type="text" name="ssn"  ngModel></div>
+          
+            <div ngModelGroup="passwordsGroup">
+              <div class="formpad">Password: <input type="password" name="password" ngModel></div>
+              <div class="formpad">Confirm password: <input type="password" name="pconfirm" ngModel></div>
+            </div>
+          
+            <button type="submit">Submit</button>
+          </form>
+        <!-- END Main Section-->
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<router-outlet></router-outlet>

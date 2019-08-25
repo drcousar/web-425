@@ -1,0 +1,68 @@
+<!--The content below is only a placeholder and can be replaced.-->
+ <!--
+   /*
+============================================
+; Title: Assignment 7.3
+; Author: Donald Cousar
+; Date: 25 August 2019
+; Description: Form Validation
+;===========================================
+*/
+ -->
+<mat-toolbar class="menu" role="header" color="primary">
+    <mat-toolbar-row>
+      <button mat-button class="toolbar__icon-button mat-button">
+        
+        <span style="margin-left: 5px !important;">WEB 425</span>
+      </button>
+      <button mat-button class="mat-button">
+        About
+      </button>
+      <button mat-button class="mat-button">
+        Contact Us
+      </button>
+  
+      <div fxFlex></div>
+  
+      
+      
+    </mat-toolbar-row>
+  </mat-toolbar>
+  <br />
+  <br />
+  <br />
+  <br />
+  <!-- Side Nav Container with Class -->
+<mat-sidenav-container>
+  <mat-sidenav class="left" mode="side" opened>
+    
+  </mat-sidenav>
+  <mat-sidenav-content class="right">
+        <!-- BEGIN Main Section-->
+ 
+        <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+            <div>
+              Phone number:
+              <input type="text" name="telephone" ngModel
+                required
+                pattern="[0-9]*"
+                minlength="10"
+                #phone="ngModel"
+                [class.hasError]="phone.isvalid && phone.touched">
+          
+                <div [hidden]="phone.valid || phone.pristine">
+                  <div class="error" [hidden]="!phone.hasError('minlength')">Phone has to have at least 10 digits</div>
+                  <div class="error" [hidden]="!phone.hasError('required')">Phone is required</div>
+                  <div class="error" [hidden]="!phone.hasError('pattern')">Only digits are allowed</div>
+                </div>
+            </div>
+            <br />
+            <button type="submit" [disabled]="f.invalid">Submit</button>
+          </form>
+        <!-- END Main Section-->
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+<router-outlet></router-outlet>

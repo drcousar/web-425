@@ -1,0 +1,29 @@
+.left {
+    width: 25%;
+    background-color: white;
+    color: black;
+}
+
+.right {
+    width: 75%;
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+}
+
+.wrapper {
+    padding: 70px 70px 0;
+    display: block;
+}
+
+.formpad {
+    padding-bottom: 10px;
+}
