@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h3>Services</h3>
+<mat-selection-list #services [(ngModel)]="selectedOptions" (ngModelChange)="onNgModelChange($event)">
+  <mat-list-option class="mat-primary" checkboxPosition="before" *ngFor="let service of typesOfServices">
+    {{service}}
+  </mat-list-option>
+</mat-selection-list>
+
+<p>
+  Services selected: {{services.selectedOptions.selected.length}}
+</p>
+
+<p>
+  {{ selectedOption }}
+</p>
+
+<button mat-raised-button>Submit Order</button>
+
+<router-outlet></router-outlet>
