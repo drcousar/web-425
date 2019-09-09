@@ -1,3 +1,11 @@
+  /*
+============================================
+; Title: Assignment 9.3
+; Author: Donald Cousar
+; Date: 8 September 2019
+; Description: Bobs Computers
+;===========================================
+*/
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

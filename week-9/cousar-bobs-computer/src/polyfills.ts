@@ -1,3 +1,11 @@
+  /*
+============================================
+; Title: Assignment 9.3
+; Author: Donald Cousar
+; Date: 8 September 2019
+; Description: Bobs Computers
+;===========================================
+*/
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
